@@ -1,1 +1,21 @@
+mysql root -u root -p
 
+connect vamsi;
+use vamsi;
+create table trains(train_number int, name varchar, departure_time date, available_seats_ac int, available_seats_sleeper int, price_ac float, price_sleeper float)
+
+
+INSERT INTO trains (train_number, name, departure_time, available_seats_ac, available_seats_sleeper, price_ac, price_sleeper) 
+VALUES ('17250', 'Machilipatnam Expr..', '09:00:00', 10, 20, 100, 150);
+
+INSERT INTO trains (train_number, name, departure_time, available_seats_ac, available_seats_sleeper, price_ac, price_sleeper) 
+VALUES ('07898', 'Vijayawada Expr..', '10:30:00', 25, 35, 150, 175);
+
+INSERT INTO trains (train_number, name, departure_time, available_seats_ac, available_seats_sleeper, price_ac, price_sleeper) 
+VALUES ('52369', 'Hyderabad Expr..', '12:15:00', 20, 45, 130, 250);
+
+INSERT INTO trains (train_number, name, departure_time, available_seats_ac, available_seats_sleeper, price_ac, price_sleeper) 
+VALUES ('75138', 'Golkonda Expr..', '14:45:00', 18, 15, 160, 120);
+
+INSERT INTO trains (train_number, name, departure_time, available_seats_ac, available_seats_sleeper, price_ac, price_sleeper) 
+VALUES ('96348', 'Chennai Expr..', '17:30:00', 30, 25, 190, 160);
